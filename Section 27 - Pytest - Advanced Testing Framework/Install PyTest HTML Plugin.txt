@@ -1,0 +1,4 @@
+Install PyTest HTML Plugin
+Please execute this command to install pytest html module which will be used to generate html reports
+
+pip3 install pytest-html

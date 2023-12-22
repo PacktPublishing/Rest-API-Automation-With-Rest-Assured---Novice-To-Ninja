@@ -1,0 +1,7 @@
+Important Note For the Lecture Conftest -> Common Fixtures To Multiple Modules
+
+In this lecture, we will be using a wildcard "*" -> Asterisk for running multiple files with one command.
+
+Windows machine does not recognize "*" and it cannot be used on that.
+
+If you are using Windows, then please use the full file name, instead of using wildcards.

@@ -1,0 +1,14 @@
+Pytest Naming Conventions
+When using pytest, it is very important to follow naming conventions.
+
+If we don't follow naming conventions, then pytest will not pick up tests from the file.
+
+File names should start or end with “test”, as in test_example.py or example_test.py
+Class name should start with “Test”, as in TestExample
+Test method names should start with “test_”, as in test_example
+You can refer to the official documentation for more details:
+
+http://pytest.readthedocs.io/en/reorganize-docs/new-docs/user/naming_conventions.html
+
+Resources for this lecture
+PyTest Naming Conventions.pdf

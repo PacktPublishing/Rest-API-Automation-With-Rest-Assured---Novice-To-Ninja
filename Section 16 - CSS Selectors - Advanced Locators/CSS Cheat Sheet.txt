@@ -1,0 +1,84 @@
+CSS Cheat Sheet
+CSS Selectors Cheat Sheet
+
+
+
+Every element does not have an id -> static id, unique name, unique link text. For those elements we need to build xpath to find and then perform actions on them.
+
+ 
+Whatever we use to find an element, id, name, xpath, css -> It should always be unique.
+
+It should only find one matching node unless we want to capture a list of elements.
+
+   
+Syntax:
+
+tag[attribute='value']
+
+“#” -> Id
+
+“.” -> Class
+
+
+
+Element Displayed Example Text Box:
+
+input[id=displayed-text]
+
+#displayed-text
+
+input#displayed-text
+
+ 
+input[class=displayed-class]
+
+.displayed-class
+
+input.displayed-class
+
+ 
+Appending Classes
+
+.class1.class2.class3 -> Until we find a unique element
+
+
+
+Using wildcards in CSS Selectors:
+
+“^” -> Represents the starting text
+
+“$” -> Represents the ending text
+
+“*” -> Represents the text contained
+
+Syntax:
+
+tag[attribute<special character>=’value’]
+
+Examples:
+input[class='inputs'] -> Only 1 matching node
+
+input[class^='inputs'] -> Two matching nodes
+
+input[class='displayed-class'] - No matching nodes
+
+input[class$='class'] -> One matching node
+
+input[class*='displayed-class'] -> One matching node
+
+Finding Children
+
+fieldset -> 10 matching nodes
+
+Fieldset>table
+
+fieldset>#product -> One matching node
+
+fieldset>button -> One matching node
+
+Fieldset>a
+
+fieldset>input#name
+
+Resources for this lecture:
+CSS Selectors Cheat Sheet.pdf
